@@ -1,16 +1,36 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Far Apart?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    .container-fluid {
+      text-align: center;
+      padding: 50px;
+    }
 
-    <title>How far adate?</title>
-  </head>
-  <body>
-    <h1> Here your answer will be displayed </h1>
-    <h2> {{ difference }}</h2>
+    h1 {
+      color: #007bff;
+    }
 
-  </body>
+    h2 {
+      color: #343a40;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>We Have Your Solution!</h1>
+    <h2>There are {{ difference }} between {{ date1 }} and {{ date2 }}</h2>
+  </div>
+</body>
+</html>
